@@ -1,4 +1,4 @@
-package seminar_01;
+package seminar_one;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -34,9 +34,11 @@ public class Main {
             } else if (arr[start] != arr[end]) {
                 start ++;
             }
-        }System.out.println(Arrays.toString(arr));
+        }
+        System.out.println(Arrays.toString(arr));
 
     }
+
     private static void task_02() {
         int count = 0;
         int result = 0;
