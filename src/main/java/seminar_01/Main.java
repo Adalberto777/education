@@ -13,26 +13,30 @@ public class Main {
     }
 
     private static void task_03() {
-        int val = 3;
-        int temp = 0;
-        int [] arr = {3, 2, 2, 3, 1, 2, 3};
-        int left = 0;
-        int right = arr.length - 1;
-        while (left < right){
-            if (arr[left] == val) {
-                if (arr[left] != arr[right]){
-                    arr[left] = arr[right];
-                    arr[right] = val;
-                } else {
-                    right -= 1;
-                }
-            right -= 1;
-            left += 1;
-            }
+        final int VAL = 3;
+        int [] arr = new int[15];
+        Random random = new Random();
+        for (int i = 0; i < arr.length - 1; i++) {
+            arr[i] = random.nextInt(4);
         }
         System.out.println(Arrays.toString(arr));
-    }
+        int start = 0;
+        int end = arr.length - 1;
+        while (start < end) {
+            if (arr[end] == VAL) {
+                end --;
+            }else if (arr[start] == VAL) {
+                arr[start] = arr[end];
+                arr[end] = VAL;
 
+                end --;
+                start ++;
+            } else if (arr[start] != arr[end]) {
+                start ++;
+            }
+        }System.out.println(Arrays.toString(arr));
+
+    }
     private static void task_02() {
         int count = 0;
         int result = 0;
