@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e770867-d6ad-4c06-b4ad-e5cef7f5af30" name="Changes" comment="start" />
+    <list default="true" id="2e770867-d6ad-4c06-b4ad-e5cef7f5af30" name="Changes" comment="start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_two/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/NewGeekBrains/Java/Java_Project",
+    "last_opened_file_path": "D:/NewGeekBrains/Java/Java_Project/education",
     "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
