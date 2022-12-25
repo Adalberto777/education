@@ -1,10 +1,57 @@
 package seminar_two;
 
+import jdk.dynalink.beans.StaticClass;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.logging.*;
+
 public class Main {
+
+    static Logger logger = Logger.getLogger("seminar_two");
     public static void main(String[] args) {
 //        System.out.println(buildString('x', 'o', 21));
-        System.out.println(archString("sssdfffgghhjjj"));
+//        System.out.println(archString("sssdfffgghhjjj"));
+        printIntoFilesNames("D:\\NewGeekBrains\\Java\\Java_Project\\education\\src\\main\\java\\seminar_two");
+    }
 
+    private static void printIntoFilesNames(String path) {
+        StringBuilder sb = new StringBuilder();
+        logger.setLevel(Level.ALL);
+        Handler handler = new ConsoleHandler();
+        handler.setLevel(Level.ALL);
+        logger.addHandler(handler);
+
+
+        String[] names = convertPathToNameArr(path);
+
+        if (names == null) {
+            try {
+                throw new RuntimeException("This directory is employ");
+            }
+            catch (RuntimeException e) {
+                logger.severe(e.getMessage());
+            }
+            return;
+        }
+
+        for (String name : names) {
+            sb.append(name).append(System.lineSeparator());
+        }
+
+
+        try (PrintWriter pw = new PrintWriter("src/main/resources/files/dir_files.txt")) {
+            pw.println(sb.toString());
+            pw.close();
+        } catch (FileNotFoundException e) {
+            logger.severe("file is not found: " + e.getMessage());
+        }
+    }
+
+    private static String[] convertPathToNameArr(String path) {
+        File file = new File(path);
+        return file.list();
     }
 
     private static String archString(String str) {

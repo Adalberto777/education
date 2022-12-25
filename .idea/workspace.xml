@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e770867-d6ad-4c06-b4ad-e5cef7f5af30" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_two/Main.java" afterDir="false" />
+    <list default="true" id="2e770867-d6ad-4c06-b4ad-e5cef7f5af30" name="Changes" comment="sem2 task2">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/dir_files.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar_two/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar_two/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +69,19 @@
       <option name="project" value="LOCAL" />
       <updated>1671602275267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sem2 task2">
+      <created>1671919022701</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671919022701</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="sem2 task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="sem2 task2" />
   </component>
 </project>
