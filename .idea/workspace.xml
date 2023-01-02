@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e770867-d6ad-4c06-b4ad-e5cef7f5af30" name="Changes" comment="sem2 task2">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/dir_files.txt" afterDir="false" />
+    <list default="true" id="2e770867-d6ad-4c06-b4ad-e5cef7f5af30" name="Changes" comment="sem2 task3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_three/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_12_2022_10_55_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_12_2022_10_55__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminar_two/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar_two/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar_one/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar_one/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +78,20 @@
       <option name="project" value="LOCAL" />
       <updated>1671919022701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sem2 task3">
+      <created>1671994394075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671994394075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="sem2 task2" />
-    <option name="LAST_COMMIT_MESSAGE" value="sem2 task2" />
+    <MESSAGE value="sem2 task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="sem2 task3" />
   </component>
 </project>

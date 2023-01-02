@@ -61,7 +61,7 @@ public class Main {
         System.out.printf("max series 1  -  %s%n", result);
     }
 
-    private static void task_01() {
+    public static void task_01() {
         System.out.print("Enter your name: ");
         Scanner scanner = new Scanner(System.in);
         String name  = scanner.next();
