@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e770867-d6ad-4c06-b4ad-e5cef7f5af30" name="Changes" comment="sem3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_four/Main.java" afterDir="false" />
+    <list default="true" id="2e770867-d6ad-4c06-b4ad-e5cef7f5af30" name="Changes" comment="seminar04">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_five/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -52,6 +52,26 @@
     "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar_five.Main" />
+      <module name="education" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar_five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672667191745</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="seminar04">
+      <created>1672856426032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672856426032</updated>
+    </task>
+    <task id="LOCAL-00007" summary="seminar04">
+      <created>1672856476909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672856476909</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -104,6 +138,7 @@
     <MESSAGE value="sem2 task2" />
     <MESSAGE value="sem2 task3" />
     <MESSAGE value="sem3" />
-    <option name="LAST_COMMIT_MESSAGE" value="sem3" />
+    <MESSAGE value="seminar04" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar04" />
   </component>
 </project>
